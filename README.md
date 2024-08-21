@@ -1,2 +1,2 @@
-# demo-finance-dev
+# demo
 Dev repository for demo application
