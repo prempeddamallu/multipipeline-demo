@@ -1,11 +1,19 @@
 pipeline{
-agent any
+  agent any
   stages{
-    stage ('Build'){
+    stage("Build"){
       steps{
-        echo "Building release-1.0"
-        echo "Release Branch is triggerred."
-	echo "Restriction Test for the GitHub Project"
+        echo 'Building The Application...'
+      }
+    }
+    stage("Test"){
+      steps{
+        echo 'Testing The Application...'
+      }
+    }
+    stage("Deploy"){
+      steps{
+        echo 'Deploying The Application...'
       }
     }
   }
