@@ -1,2 +1,2 @@
 # demo
-Dev repository for demo application
+Dev repository for demo application.
